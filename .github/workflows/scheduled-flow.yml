@@ -6,5 +6,5 @@ jobs:
  test-schedule:
   runs-on: ubuntu-latest
    steps:
-    - name: run every halfan hour
-      run: echo "Running every 30 minutes"
+    - name: run every half an hour
+     run: echo "Running every 30 minutes"

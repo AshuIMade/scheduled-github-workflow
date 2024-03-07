@@ -1,7 +1,6 @@
 name: Trigger action on CRON
 on:
   schedule:
-    # * is special character is YAML so you have to quate this string
     - cron: "*/30 * * * *"
 jobs:
   test-schedule:
